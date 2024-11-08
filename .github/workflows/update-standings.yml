@@ -1,9 +1,9 @@
 name: Update Standings
 
 on:
-  workflow_dispatch: # Allows manual runs
+  workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *" # Runs daily at midnight UTC
+    - cron: "0 0 * * *"
 
 jobs:
   update-standings:
@@ -11,12 +11,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4 # Upgrade to the latest version
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4 # Upgrade to the latest version
         with:
-          node-version: 16 # Use your preferred version
+          node-version: 20 # Specify Node.js 20 explicitly for compatibility
 
       - name: Install dependencies
         run: npm install
