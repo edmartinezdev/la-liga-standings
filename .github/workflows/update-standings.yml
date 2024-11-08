@@ -11,12 +11,14 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4 # Upgrade to the latest version
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }} # Use GITHUB_TOKEN for authentication
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4 # Upgrade to the latest version
+        uses: actions/setup-node@v4
         with:
-          node-version: 20 # Specify Node.js 20 explicitly for compatibility
+          node-version: 20
 
       - name: Install dependencies
         run: npm install
@@ -30,4 +32,4 @@ jobs:
           git config --global user.email "actions@github.com"
           git add standings.json
           git commit -m "Update standings [skip ci]" || echo "No changes to commit"
-          git push
+          git push origin main
