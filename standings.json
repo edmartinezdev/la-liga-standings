@@ -1,0 +1,122 @@
+[
+  {
+    "position": "1",
+    "team": "Barcelona",
+    "played": "12",
+    "points": "33"
+  },
+  {
+    "position": "2",
+    "team": "Real Madrid",
+    "played": "11",
+    "points": "24"
+  },
+  {
+    "position": "3",
+    "team": "Atletico Madrid",
+    "played": "12",
+    "points": "23"
+  },
+  {
+    "position": "4",
+    "team": "Villarreal",
+    "played": "11",
+    "points": "21"
+  },
+  {
+    "position": "5",
+    "team": "Osasuna",
+    "played": "12",
+    "points": "21"
+  },
+  {
+    "position": "6",
+    "team": "Athletic Bilbao",
+    "played": "12",
+    "points": "19"
+  },
+  {
+    "position": "7",
+    "team": "Real Betis",
+    "played": "12",
+    "points": "19"
+  },
+  {
+    "position": "8",
+    "team": "Real Mallorca",
+    "played": "12",
+    "points": "18"
+  },
+  {
+    "position": "9",
+    "team": "Rayo Vallecano",
+    "played": "11",
+    "points": "16"
+  },
+  {
+    "position": "10",
+    "team": "Celta Vigo",
+    "played": "12",
+    "points": "16"
+  },
+  {
+    "position": "11",
+    "team": "Real Sociedad",
+    "played": "12",
+    "points": "15"
+  },
+  {
+    "position": "12",
+    "team": "Girona",
+    "played": "12",
+    "points": "15"
+  },
+  {
+    "position": "13",
+    "team": "Sevilla",
+    "played": "12",
+    "points": "15"
+  },
+  {
+    "position": "14",
+    "team": "Alaves",
+    "played": "12",
+    "points": "13"
+  },
+  {
+    "position": "15",
+    "team": "Leganes",
+    "played": "12",
+    "points": "11"
+  },
+  {
+    "position": "16",
+    "team": "Getafe",
+    "played": "12",
+    "points": "10"
+  },
+  {
+    "position": "17",
+    "team": "Espanyol",
+    "played": "12",
+    "points": "10"
+  },
+  {
+    "position": "18",
+    "team": "Las Palmas",
+    "played": "12",
+    "points": "9"
+  },
+  {
+    "position": "19",
+    "team": "Real Valladolid",
+    "played": "12",
+    "points": "8"
+  },
+  {
+    "position": "20",
+    "team": "Valencia",
+    "played": "11",
+    "points": "7"
+  }
+]
