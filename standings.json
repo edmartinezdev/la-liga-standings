@@ -8,25 +8,25 @@
   {
     "position": "2",
     "team": "Real Madrid",
-    "played": "11",
-    "points": "24"
+    "played": "12",
+    "points": "27"
   },
   {
     "position": "3",
+    "team": "Villarreal",
+    "played": "12",
+    "points": "24"
+  },
+  {
+    "position": "4",
     "team": "Atletico Madrid",
     "played": "12",
     "points": "23"
   },
   {
-    "position": "4",
-    "team": "Villarreal",
-    "played": "11",
-    "points": "21"
-  },
-  {
     "position": "5",
     "team": "Osasuna",
-    "played": "12",
+    "played": "13",
     "points": "21"
   },
   {
@@ -80,7 +80,7 @@
   {
     "position": "14",
     "team": "Alaves",
-    "played": "12",
+    "played": "13",
     "points": "13"
   },
   {
