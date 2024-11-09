@@ -50,7 +50,7 @@
   {
     "position": "9",
     "team": "Rayo Vallecano",
-    "played": "11",
+    "played": "12",
     "points": "16"
   },
   {
@@ -85,27 +85,27 @@
   },
   {
     "position": "15",
+    "team": "Las Palmas",
+    "played": "13",
+    "points": "12"
+  },
+  {
+    "position": "16",
     "team": "Leganes",
     "played": "12",
     "points": "11"
   },
   {
-    "position": "16",
+    "position": "17",
     "team": "Getafe",
     "played": "12",
     "points": "10"
   },
   {
-    "position": "17",
+    "position": "18",
     "team": "Espanyol",
     "played": "12",
     "points": "10"
-  },
-  {
-    "position": "18",
-    "team": "Las Palmas",
-    "played": "12",
-    "points": "9"
   },
   {
     "position": "19",
