@@ -74,26 +74,26 @@
   {
     "position": "13",
     "team": "Sevilla",
-    "played": "12",
+    "played": "13",
     "points": "15"
   },
   {
     "position": "14",
+    "team": "Leganes",
+    "played": "13",
+    "points": "14"
+  },
+  {
+    "position": "15",
     "team": "Alaves",
     "played": "13",
     "points": "13"
   },
   {
-    "position": "15",
+    "position": "16",
     "team": "Las Palmas",
     "played": "13",
     "points": "12"
-  },
-  {
-    "position": "16",
-    "team": "Leganes",
-    "played": "12",
-    "points": "11"
   },
   {
     "position": "17",
