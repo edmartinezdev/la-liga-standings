@@ -7,15 +7,15 @@
   },
   {
     "position": "2",
-    "team": "Real Madrid",
-    "played": "12",
-    "points": "27"
+    "team": "Atletico Madrid",
+    "played": "14",
+    "points": "29"
   },
   {
     "position": "3",
-    "team": "Atletico Madrid",
-    "played": "13",
-    "points": "26"
+    "team": "Real Madrid",
+    "played": "12",
+    "points": "27"
   },
   {
     "position": "4",
@@ -38,7 +38,7 @@
   {
     "position": "7",
     "team": "Real Betis",
-    "played": "13",
+    "played": "14",
     "points": "20"
   },
   {
@@ -92,7 +92,7 @@
   {
     "position": "16",
     "team": "Alaves",
-    "played": "13",
+    "played": "14",
     "points": "13"
   },
   {
@@ -103,20 +103,20 @@
   },
   {
     "position": "18",
-    "team": "Espanyol",
+    "team": "Valencia",
     "played": "12",
     "points": "10"
   },
   {
     "position": "19",
-    "team": "Real Valladolid",
-    "played": "14",
-    "points": "9"
+    "team": "Espanyol",
+    "played": "12",
+    "points": "10"
   },
   {
     "position": "20",
-    "team": "Valencia",
-    "played": "11",
-    "points": "7"
+    "team": "Real Valladolid",
+    "played": "14",
+    "points": "9"
   }
 ]
