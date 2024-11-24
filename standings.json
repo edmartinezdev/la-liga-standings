@@ -20,25 +20,25 @@
   {
     "position": "4",
     "team": "Villarreal",
-    "played": "12",
-    "points": "24"
+    "played": "13",
+    "points": "25"
   },
   {
     "position": "5",
+    "team": "Osasuna",
+    "played": "14",
+    "points": "22"
+  },
+  {
+    "position": "6",
     "team": "Girona",
     "played": "14",
     "points": "21"
   },
   {
-    "position": "6",
+    "position": "7",
     "team": "Real Mallorca",
     "played": "14",
-    "points": "21"
-  },
-  {
-    "position": "7",
-    "team": "Osasuna",
-    "played": "13",
     "points": "21"
   },
   {
@@ -67,15 +67,15 @@
   },
   {
     "position": "12",
-    "team": "Rayo Vallecano",
-    "played": "12",
-    "points": "16"
+    "team": "Sevilla",
+    "played": "14",
+    "points": "18"
   },
   {
     "position": "13",
-    "team": "Sevilla",
+    "team": "Rayo Vallecano",
     "played": "13",
-    "points": "15"
+    "points": "16"
   },
   {
     "position": "14",
