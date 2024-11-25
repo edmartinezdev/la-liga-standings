@@ -7,15 +7,15 @@
   },
   {
     "position": "2",
-    "team": "Atletico Madrid",
-    "played": "14",
-    "points": "29"
+    "team": "Real Madrid",
+    "played": "13",
+    "points": "30"
   },
   {
     "position": "3",
-    "team": "Real Madrid",
-    "played": "12",
-    "points": "27"
+    "team": "Atletico Madrid",
+    "played": "14",
+    "points": "29"
   },
   {
     "position": "4",
@@ -25,27 +25,27 @@
   },
   {
     "position": "5",
+    "team": "Athletic Bilbao",
+    "played": "14",
+    "points": "23"
+  },
+  {
+    "position": "6",
     "team": "Osasuna",
     "played": "14",
     "points": "22"
   },
   {
-    "position": "6",
+    "position": "7",
     "team": "Girona",
     "played": "14",
     "points": "21"
   },
   {
-    "position": "7",
+    "position": "8",
     "team": "Real Mallorca",
     "played": "14",
     "points": "21"
-  },
-  {
-    "position": "8",
-    "team": "Athletic Bilbao",
-    "played": "13",
-    "points": "20"
   },
   {
     "position": "9",
@@ -56,7 +56,7 @@
   {
     "position": "10",
     "team": "Real Sociedad",
-    "played": "13",
+    "played": "14",
     "points": "18"
   },
   {
@@ -80,7 +80,7 @@
   {
     "position": "14",
     "team": "Leganes",
-    "played": "13",
+    "played": "14",
     "points": "14"
   },
   {
