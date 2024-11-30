@@ -2,7 +2,7 @@
   {
     "position": "1",
     "team": "Barcelona",
-    "played": "14",
+    "played": "15",
     "points": "34"
   },
   {
@@ -79,27 +79,27 @@
   },
   {
     "position": "14",
-    "team": "Leganes",
-    "played": "14",
-    "points": "14"
+    "team": "Las Palmas",
+    "played": "15",
+    "points": "15"
   },
   {
     "position": "15",
-    "team": "Getafe",
-    "played": "14",
-    "points": "13"
+    "team": "Leganes",
+    "played": "15",
+    "points": "15"
   },
   {
     "position": "16",
     "team": "Alaves",
-    "played": "14",
-    "points": "13"
+    "played": "15",
+    "points": "14"
   },
   {
     "position": "17",
-    "team": "Las Palmas",
+    "team": "Getafe",
     "played": "14",
-    "points": "12"
+    "points": "13"
   },
   {
     "position": "18",
