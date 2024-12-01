@@ -7,15 +7,15 @@
   },
   {
     "position": "2",
-    "team": "Real Madrid",
-    "played": "13",
-    "points": "30"
+    "team": "Atletico Madrid",
+    "played": "15",
+    "points": "32"
   },
   {
     "position": "3",
-    "team": "Atletico Madrid",
-    "played": "14",
-    "points": "29"
+    "team": "Real Madrid",
+    "played": "13",
+    "points": "30"
   },
   {
     "position": "4",
@@ -62,7 +62,7 @@
   {
     "position": "11",
     "team": "Celta Vigo",
-    "played": "14",
+    "played": "15",
     "points": "18"
   },
   {
@@ -103,20 +103,20 @@
   },
   {
     "position": "18",
-    "team": "Valencia",
-    "played": "13",
-    "points": "10"
+    "team": "Espanyol",
+    "played": "14",
+    "points": "13"
   },
   {
     "position": "19",
-    "team": "Espanyol",
+    "team": "Valencia",
     "played": "13",
     "points": "10"
   },
   {
     "position": "20",
     "team": "Real Valladolid",
-    "played": "14",
+    "played": "15",
     "points": "9"
   }
 ]
