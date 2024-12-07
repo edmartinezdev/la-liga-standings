@@ -2,8 +2,8 @@
   {
     "position": "1",
     "team": "Barcelona",
-    "played": "16",
-    "points": "37"
+    "played": "17",
+    "points": "38"
   },
   {
     "position": "2",
@@ -62,8 +62,8 @@
   {
     "position": "11",
     "team": "Real Betis",
-    "played": "15",
-    "points": "20"
+    "played": "16",
+    "points": "21"
   },
   {
     "position": "12",
@@ -73,15 +73,15 @@
   },
   {
     "position": "13",
-    "team": "Rayo Vallecano",
-    "played": "14",
-    "points": "16"
+    "team": "Las Palmas",
+    "played": "16",
+    "points": "18"
   },
   {
     "position": "14",
-    "team": "Las Palmas",
-    "played": "15",
-    "points": "15"
+    "team": "Rayo Vallecano",
+    "played": "14",
+    "points": "16"
   },
   {
     "position": "15",
@@ -116,7 +116,7 @@
   {
     "position": "20",
     "team": "Real Valladolid",
-    "played": "15",
+    "played": "16",
     "points": "9"
   }
 ]
