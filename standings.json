@@ -8,8 +8,8 @@
   {
     "position": "2",
     "team": "Real Madrid",
-    "played": "15",
-    "points": "33"
+    "played": "16",
+    "points": "36"
   },
   {
     "position": "3",
@@ -44,7 +44,7 @@
   {
     "position": "8",
     "team": "Girona",
-    "played": "15",
+    "played": "16",
     "points": "22"
   },
   {
@@ -67,21 +67,21 @@
   },
   {
     "position": "12",
-    "team": "Sevilla",
+    "team": "Rayo Vallecano",
     "played": "15",
     "points": "19"
   },
   {
     "position": "13",
-    "team": "Las Palmas",
-    "played": "16",
-    "points": "18"
+    "team": "Sevilla",
+    "played": "15",
+    "points": "19"
   },
   {
     "position": "14",
-    "team": "Rayo Vallecano",
-    "played": "14",
-    "points": "16"
+    "team": "Las Palmas",
+    "played": "16",
+    "points": "18"
   },
   {
     "position": "15",
@@ -110,7 +110,7 @@
   {
     "position": "19",
     "team": "Valencia",
-    "played": "13",
+    "played": "14",
     "points": "10"
   },
   {
