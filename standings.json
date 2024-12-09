@@ -14,8 +14,8 @@
   {
     "position": "3",
     "team": "Atletico Madrid",
-    "played": "15",
-    "points": "32"
+    "played": "16",
+    "points": "35"
   },
   {
     "position": "4",
@@ -37,15 +37,15 @@
   },
   {
     "position": "7",
-    "team": "Real Mallorca",
-    "played": "17",
+    "team": "Osasuna",
+    "played": "16",
     "points": "24"
   },
   {
     "position": "8",
-    "team": "Osasuna",
-    "played": "15",
-    "points": "23"
+    "team": "Real Mallorca",
+    "played": "17",
+    "points": "24"
   },
   {
     "position": "9",
@@ -74,7 +74,7 @@
   {
     "position": "13",
     "team": "Sevilla",
-    "played": "15",
+    "played": "16",
     "points": "19"
   },
   {
@@ -85,15 +85,15 @@
   },
   {
     "position": "15",
-    "team": "Leganes",
+    "team": "Alaves",
     "played": "16",
     "points": "15"
   },
   {
     "position": "16",
-    "team": "Alaves",
-    "played": "15",
-    "points": "14"
+    "team": "Leganes",
+    "played": "16",
+    "points": "15"
   },
   {
     "position": "17",
