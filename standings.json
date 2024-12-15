@@ -7,21 +7,21 @@
   },
   {
     "position": "2",
+    "team": "Atletico Madrid",
+    "played": "17",
+    "points": "38"
+  },
+  {
+    "position": "3",
     "team": "Real Madrid",
     "played": "17",
     "points": "37"
   },
   {
-    "position": "3",
-    "team": "Atletico Madrid",
-    "played": "16",
-    "points": "35"
-  },
-  {
     "position": "4",
     "team": "Athletic Bilbao",
-    "played": "17",
-    "points": "32"
+    "played": "18",
+    "points": "33"
   },
   {
     "position": "5",
@@ -86,14 +86,14 @@
   {
     "position": "15",
     "team": "Getafe",
-    "played": "16",
+    "played": "17",
     "points": "16"
   },
   {
     "position": "16",
     "team": "Alaves",
-    "played": "16",
-    "points": "15"
+    "played": "17",
+    "points": "16"
   },
   {
     "position": "17",
