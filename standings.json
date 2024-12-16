@@ -2,7 +2,7 @@
   {
     "position": "1",
     "team": "Barcelona",
-    "played": "17",
+    "played": "18",
     "points": "38"
   },
   {
@@ -32,38 +32,38 @@
   {
     "position": "6",
     "team": "Villarreal",
-    "played": "15",
+    "played": "16",
     "points": "26"
   },
   {
     "position": "7",
-    "team": "Osasuna",
+    "team": "Real Sociedad",
     "played": "17",
     "points": "25"
   },
   {
     "position": "8",
-    "team": "Real Sociedad",
-    "played": "16",
-    "points": "24"
+    "team": "Osasuna",
+    "played": "17",
+    "points": "25"
   },
   {
     "position": "9",
+    "team": "Real Betis",
+    "played": "17",
+    "points": "24"
+  },
+  {
+    "position": "10",
     "team": "Girona",
     "played": "17",
     "points": "22"
   },
   {
-    "position": "10",
+    "position": "11",
     "team": "Sevilla",
     "played": "17",
     "points": "22"
-  },
-  {
-    "position": "11",
-    "team": "Real Betis",
-    "played": "16",
-    "points": "21"
   },
   {
     "position": "12",
@@ -80,26 +80,26 @@
   {
     "position": "14",
     "team": "Las Palmas",
-    "played": "16",
-    "points": "18"
+    "played": "17",
+    "points": "19"
   },
   {
     "position": "15",
+    "team": "Leganes",
+    "played": "17",
+    "points": "18"
+  },
+  {
+    "position": "16",
     "team": "Getafe",
     "played": "17",
     "points": "16"
   },
   {
-    "position": "16",
+    "position": "17",
     "team": "Alaves",
     "played": "17",
     "points": "16"
-  },
-  {
-    "position": "17",
-    "team": "Leganes",
-    "played": "16",
-    "points": "15"
   },
   {
     "position": "18",
