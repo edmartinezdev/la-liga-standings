@@ -25,15 +25,15 @@
   },
   {
     "position": "5",
-    "team": "Real Mallorca",
-    "played": "18",
+    "team": "Villarreal",
+    "played": "17",
     "points": "27"
   },
   {
     "position": "6",
-    "team": "Villarreal",
-    "played": "16",
-    "points": "26"
+    "team": "Real Mallorca",
+    "played": "18",
+    "points": "27"
   },
   {
     "position": "7",
@@ -67,15 +67,15 @@
   },
   {
     "position": "12",
-    "team": "Celta Vigo",
+    "team": "Rayo Vallecano",
     "played": "17",
     "points": "21"
   },
   {
     "position": "13",
-    "team": "Rayo Vallecano",
-    "played": "16",
-    "points": "20"
+    "team": "Celta Vigo",
+    "played": "17",
+    "points": "21"
   },
   {
     "position": "14",
@@ -104,8 +104,8 @@
   {
     "position": "18",
     "team": "Espanyol",
-    "played": "16",
-    "points": "14"
+    "played": "17",
+    "points": "15"
   },
   {
     "position": "19",
@@ -116,7 +116,7 @@
   {
     "position": "20",
     "team": "Valencia",
-    "played": "15",
-    "points": "10"
+    "played": "16",
+    "points": "11"
   }
 ]
