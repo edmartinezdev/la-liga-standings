@@ -7,15 +7,15 @@
   },
   {
     "position": "2",
-    "team": "Barcelona",
-    "played": "19",
-    "points": "38"
+    "team": "Real Madrid",
+    "played": "18",
+    "points": "40"
   },
   {
     "position": "3",
-    "team": "Real Madrid",
-    "played": "17",
-    "points": "37"
+    "team": "Barcelona",
+    "played": "19",
+    "points": "38"
   },
   {
     "position": "4",
@@ -68,7 +68,7 @@
   {
     "position": "12",
     "team": "Sevilla",
-    "played": "17",
+    "played": "18",
     "points": "22"
   },
   {
@@ -91,14 +91,14 @@
   },
   {
     "position": "16",
-    "team": "Getafe",
+    "team": "Alaves",
     "played": "18",
-    "points": "16"
+    "points": "17"
   },
   {
     "position": "17",
-    "team": "Alaves",
-    "played": "17",
+    "team": "Getafe",
+    "played": "18",
     "points": "16"
   },
   {
@@ -109,14 +109,14 @@
   },
   {
     "position": "19",
-    "team": "Real Valladolid",
-    "played": "18",
+    "team": "Valencia",
+    "played": "17",
     "points": "12"
   },
   {
     "position": "20",
-    "team": "Valencia",
-    "played": "16",
-    "points": "11"
+    "team": "Real Valladolid",
+    "played": "18",
+    "points": "12"
   }
 ]
