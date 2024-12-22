@@ -1,14 +1,14 @@
 [
   {
     "position": "1",
-    "team": "Barcelona",
+    "team": "Atletico Madrid",
     "played": "18",
-    "points": "38"
+    "points": "41"
   },
   {
     "position": "2",
-    "team": "Atletico Madrid",
-    "played": "17",
+    "team": "Barcelona",
+    "played": "19",
     "points": "38"
   },
   {
@@ -20,8 +20,8 @@
   {
     "position": "4",
     "team": "Athletic Bilbao",
-    "played": "18",
-    "points": "33"
+    "played": "19",
+    "points": "36"
   },
   {
     "position": "5",
@@ -50,7 +50,7 @@
   {
     "position": "9",
     "team": "Osasuna",
-    "played": "17",
+    "played": "18",
     "points": "25"
   },
   {
