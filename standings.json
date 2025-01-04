@@ -1,15 +1,15 @@
 [
   {
     "position": "1",
-    "team": "Atletico Madrid",
-    "played": "18",
-    "points": "41"
+    "team": "Real Madrid",
+    "played": "19",
+    "points": "43"
   },
   {
     "position": "2",
-    "team": "Real Madrid",
+    "team": "Atletico Madrid",
     "played": "18",
-    "points": "40"
+    "points": "41"
   },
   {
     "position": "3",
@@ -110,7 +110,7 @@
   {
     "position": "19",
     "team": "Valencia",
-    "played": "17",
+    "played": "18",
     "points": "12"
   },
   {
