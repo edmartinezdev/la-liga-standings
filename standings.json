@@ -73,21 +73,21 @@
   },
   {
     "position": "13",
-    "team": "Las Palmas",
-    "played": "18",
-    "points": "22"
+    "team": "Sevilla",
+    "played": "19",
+    "points": "23"
   },
   {
     "position": "14",
-    "team": "Sevilla",
+    "team": "Las Palmas",
     "played": "18",
     "points": "22"
   },
   {
     "position": "15",
     "team": "Leganes",
-    "played": "18",
-    "points": "18"
+    "played": "19",
+    "points": "19"
   },
   {
     "position": "16",
@@ -104,8 +104,8 @@
   {
     "position": "18",
     "team": "Espanyol",
-    "played": "18",
-    "points": "15"
+    "played": "19",
+    "points": "16"
   },
   {
     "position": "19",
@@ -116,7 +116,7 @@
   {
     "position": "20",
     "team": "Valencia",
-    "played": "18",
-    "points": "12"
+    "played": "19",
+    "points": "13"
   }
 ]
