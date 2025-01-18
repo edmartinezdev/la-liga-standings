@@ -2,7 +2,7 @@
   {
     "position": "1",
     "team": "Atletico Madrid",
-    "played": "19",
+    "played": "20",
     "points": "44"
   },
   {
@@ -44,38 +44,38 @@
   {
     "position": "8",
     "team": "Girona",
-    "played": "19",
+    "played": "20",
     "points": "28"
   },
   {
     "position": "9",
+    "team": "Sevilla",
+    "played": "20",
+    "points": "26"
+  },
+  {
+    "position": "10",
     "team": "Rayo Vallecano",
     "played": "19",
     "points": "25"
   },
   {
-    "position": "10",
+    "position": "11",
     "team": "Real Betis",
     "played": "19",
     "points": "25"
   },
   {
-    "position": "11",
+    "position": "12",
     "team": "Osasuna",
     "played": "19",
     "points": "25"
   },
   {
-    "position": "12",
+    "position": "13",
     "team": "Celta Vigo",
     "played": "19",
     "points": "24"
-  },
-  {
-    "position": "13",
-    "team": "Sevilla",
-    "played": "19",
-    "points": "23"
   },
   {
     "position": "14",
@@ -85,13 +85,13 @@
   },
   {
     "position": "15",
-    "team": "Getafe",
-    "played": "19",
-    "points": "19"
+    "team": "Leganes",
+    "played": "20",
+    "points": "22"
   },
   {
     "position": "16",
-    "team": "Leganes",
+    "team": "Getafe",
     "played": "19",
     "points": "19"
   },
