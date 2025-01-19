@@ -1,15 +1,15 @@
 [
   {
     "position": "1",
-    "team": "Atletico Madrid",
+    "team": "Real Madrid",
     "played": "20",
-    "points": "44"
+    "points": "46"
   },
   {
     "position": "2",
-    "team": "Real Madrid",
-    "played": "19",
-    "points": "43"
+    "team": "Atletico Madrid",
+    "played": "20",
+    "points": "44"
   },
   {
     "position": "3",
@@ -20,8 +20,8 @@
   {
     "position": "4",
     "team": "Athletic Bilbao",
-    "played": "19",
-    "points": "36"
+    "played": "20",
+    "points": "39"
   },
   {
     "position": "5",
@@ -74,13 +74,13 @@
   {
     "position": "13",
     "team": "Celta Vigo",
-    "played": "19",
+    "played": "20",
     "points": "24"
   },
   {
     "position": "14",
     "team": "Las Palmas",
-    "played": "19",
+    "played": "20",
     "points": "22"
   },
   {
