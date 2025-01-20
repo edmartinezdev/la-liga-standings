@@ -38,7 +38,7 @@
   {
     "position": "7",
     "team": "Real Sociedad",
-    "played": "19",
+    "played": "20",
     "points": "28"
   },
   {
@@ -49,26 +49,26 @@
   },
   {
     "position": "9",
-    "team": "Sevilla",
+    "team": "Rayo Vallecano",
     "played": "20",
     "points": "26"
   },
   {
     "position": "10",
-    "team": "Rayo Vallecano",
-    "played": "19",
-    "points": "25"
+    "team": "Osasuna",
+    "played": "20",
+    "points": "26"
   },
   {
     "position": "11",
-    "team": "Real Betis",
+    "team": "Sevilla",
     "played": "20",
-    "points": "25"
+    "points": "26"
   },
   {
     "position": "12",
-    "team": "Osasuna",
-    "played": "19",
+    "team": "Real Betis",
+    "played": "20",
     "points": "25"
   },
   {
@@ -109,14 +109,14 @@
   },
   {
     "position": "19",
-    "team": "Real Valladolid",
+    "team": "Valencia",
     "played": "20",
-    "points": "15"
+    "points": "16"
   },
   {
     "position": "20",
-    "team": "Valencia",
-    "played": "19",
-    "points": "13"
+    "team": "Real Valladolid",
+    "played": "20",
+    "points": "15"
   }
 ]
