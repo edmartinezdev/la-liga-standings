@@ -2,8 +2,8 @@
   {
     "position": "1",
     "team": "Real Madrid",
-    "played": "20",
-    "points": "46"
+    "played": "21",
+    "points": "49"
   },
   {
     "position": "2",
@@ -61,13 +61,13 @@
   },
   {
     "position": "11",
-    "team": "Rayo Vallecano",
-    "played": "20",
-    "points": "26"
+    "team": "Sevilla",
+    "played": "21",
+    "points": "27"
   },
   {
     "position": "12",
-    "team": "Sevilla",
+    "team": "Rayo Vallecano",
     "played": "20",
     "points": "26"
   },
@@ -104,8 +104,8 @@
   {
     "position": "18",
     "team": "Espanyol",
-    "played": "20",
-    "points": "19"
+    "played": "21",
+    "points": "20"
   },
   {
     "position": "19",
@@ -116,7 +116,7 @@
   {
     "position": "20",
     "team": "Real Valladolid",
-    "played": "20",
+    "played": "21",
     "points": "15"
   }
 ]
