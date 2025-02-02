@@ -2,14 +2,14 @@
   {
     "position": "1",
     "team": "Real Madrid",
-    "played": "21",
+    "played": "22",
     "points": "49"
   },
   {
     "position": "2",
     "team": "Atletico Madrid",
-    "played": "21",
-    "points": "45"
+    "played": "22",
+    "points": "48"
   },
   {
     "position": "3",
@@ -38,7 +38,7 @@
   {
     "position": "7",
     "team": "Real Mallorca",
-    "played": "21",
+    "played": "22",
     "points": "30"
   },
   {
@@ -97,15 +97,15 @@
   },
   {
     "position": "17",
-    "team": "Alaves",
-    "played": "21",
-    "points": "21"
+    "team": "Espanyol",
+    "played": "22",
+    "points": "23"
   },
   {
     "position": "18",
-    "team": "Espanyol",
+    "team": "Alaves",
     "played": "21",
-    "points": "20"
+    "points": "21"
   },
   {
     "position": "19",
