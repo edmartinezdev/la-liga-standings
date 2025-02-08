@@ -20,8 +20,8 @@
   {
     "position": "4",
     "team": "Athletic Bilbao",
-    "played": "22",
-    "points": "41"
+    "played": "23",
+    "points": "44"
   },
   {
     "position": "5",
@@ -38,7 +38,7 @@
   {
     "position": "7",
     "team": "Girona",
-    "played": "22",
+    "played": "23",
     "points": "31"
   },
   {
@@ -56,7 +56,7 @@
   {
     "position": "10",
     "team": "Real Betis",
-    "played": "22",
+    "played": "23",
     "points": "29"
   },
   {
@@ -67,15 +67,15 @@
   },
   {
     "position": "12",
-    "team": "Sevilla",
-    "played": "22",
+    "team": "Celta Vigo",
+    "played": "23",
     "points": "28"
   },
   {
     "position": "13",
-    "team": "Celta Vigo",
+    "team": "Sevilla",
     "played": "22",
-    "points": "25"
+    "points": "28"
   },
   {
     "position": "14",
