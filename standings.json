@@ -80,8 +80,8 @@
   {
     "position": "14",
     "team": "Getafe",
-    "played": "22",
-    "points": "24"
+    "played": "23",
+    "points": "27"
   },
   {
     "position": "15",
@@ -91,27 +91,27 @@
   },
   {
     "position": "16",
-    "team": "Leganes",
-    "played": "22",
-    "points": "23"
-  },
-  {
-    "position": "17",
     "team": "Espanyol",
     "played": "22",
     "points": "23"
   },
   {
+    "position": "17",
+    "team": "Leganes",
+    "played": "23",
+    "points": "23"
+  },
+  {
     "position": "18",
-    "team": "Alaves",
-    "played": "22",
-    "points": "21"
+    "team": "Valencia",
+    "played": "23",
+    "points": "22"
   },
   {
     "position": "19",
-    "team": "Valencia",
-    "played": "22",
-    "points": "19"
+    "team": "Alaves",
+    "played": "23",
+    "points": "21"
   },
   {
     "position": "20",
