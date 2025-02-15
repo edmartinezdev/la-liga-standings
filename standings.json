@@ -44,7 +44,7 @@
   {
     "position": "8",
     "team": "Girona",
-    "played": "23",
+    "played": "24",
     "points": "31"
   },
   {
@@ -61,27 +61,27 @@
   },
   {
     "position": "11",
+    "team": "Getafe",
+    "played": "24",
+    "points": "30"
+  },
+  {
+    "position": "12",
     "team": "Real Betis",
     "played": "23",
     "points": "29"
   },
   {
-    "position": "12",
+    "position": "13",
     "team": "Celta Vigo",
     "played": "23",
     "points": "28"
   },
   {
-    "position": "13",
+    "position": "14",
     "team": "Sevilla",
     "played": "23",
     "points": "28"
-  },
-  {
-    "position": "14",
-    "team": "Getafe",
-    "played": "23",
-    "points": "27"
   },
   {
     "position": "15",
