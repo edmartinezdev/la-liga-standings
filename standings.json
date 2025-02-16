@@ -20,8 +20,8 @@
   {
     "position": "4",
     "team": "Athletic Bilbao",
-    "played": "23",
-    "points": "44"
+    "played": "24",
+    "points": "45"
   },
   {
     "position": "5",
@@ -55,56 +55,56 @@
   },
   {
     "position": "10",
+    "team": "Sevilla",
+    "played": "24",
+    "points": "31"
+  },
+  {
+    "position": "11",
     "team": "Real Mallorca",
     "played": "23",
     "points": "31"
   },
   {
-    "position": "11",
+    "position": "12",
     "team": "Getafe",
     "played": "24",
     "points": "30"
   },
   {
-    "position": "12",
+    "position": "13",
     "team": "Celta Vigo",
     "played": "24",
     "points": "29"
   },
   {
-    "position": "13",
+    "position": "14",
     "team": "Real Betis",
     "played": "23",
     "points": "29"
   },
   {
-    "position": "14",
-    "team": "Sevilla",
-    "played": "23",
-    "points": "28"
-  },
-  {
     "position": "15",
-    "team": "Leganes",
+    "team": "Espanyol",
     "played": "24",
     "points": "24"
   },
   {
     "position": "16",
+    "team": "Leganes",
+    "played": "24",
+    "points": "24"
+  },
+  {
+    "position": "17",
     "team": "Las Palmas",
     "played": "23",
     "points": "23"
   },
   {
-    "position": "17",
+    "position": "18",
     "team": "Valencia",
     "played": "24",
-    "points": "23"
-  },
-  {
-    "position": "18",
-    "team": "Espanyol",
-    "played": "23",
     "points": "23"
   },
   {
@@ -116,7 +116,7 @@
   {
     "position": "20",
     "team": "Real Valladolid",
-    "played": "23",
+    "played": "24",
     "points": "15"
   }
 ]
