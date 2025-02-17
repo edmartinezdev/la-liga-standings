@@ -37,50 +37,50 @@
   },
   {
     "position": "7",
+    "team": "Real Mallorca",
+    "played": "24",
+    "points": "34"
+  },
+  {
+    "position": "8",
+    "team": "Real Betis",
+    "played": "24",
+    "points": "32"
+  },
+  {
+    "position": "9",
     "team": "Osasuna",
     "played": "24",
     "points": "32"
   },
   {
-    "position": "8",
-    "team": "Real Sociedad",
-    "played": "23",
-    "points": "31"
-  },
-  {
-    "position": "9",
+    "position": "10",
     "team": "Girona",
     "played": "24",
     "points": "31"
   },
   {
-    "position": "10",
+    "position": "11",
+    "team": "Real Sociedad",
+    "played": "24",
+    "points": "31"
+  },
+  {
+    "position": "12",
     "team": "Sevilla",
     "played": "24",
     "points": "31"
   },
   {
-    "position": "11",
-    "team": "Real Mallorca",
-    "played": "23",
-    "points": "31"
-  },
-  {
-    "position": "12",
+    "position": "13",
     "team": "Getafe",
     "played": "24",
     "points": "30"
   },
   {
-    "position": "13",
+    "position": "14",
     "team": "Celta Vigo",
     "played": "24",
-    "points": "29"
-  },
-  {
-    "position": "14",
-    "team": "Real Betis",
-    "played": "23",
     "points": "29"
   },
   {
@@ -98,7 +98,7 @@
   {
     "position": "17",
     "team": "Las Palmas",
-    "played": "23",
+    "played": "24",
     "points": "23"
   },
   {
