@@ -1,21 +1,21 @@
 [
   {
     "position": "1",
-    "team": "Real Madrid",
+    "team": "Barcelona",
     "played": "24",
     "points": "51"
   },
   {
     "position": "2",
-    "team": "Atletico Madrid",
+    "team": "Real Madrid",
     "played": "24",
-    "points": "50"
+    "points": "51"
   },
   {
     "position": "3",
-    "team": "Barcelona",
-    "played": "23",
-    "points": "48"
+    "team": "Atletico Madrid",
+    "played": "24",
+    "points": "50"
   },
   {
     "position": "4",
@@ -32,7 +32,7 @@
   {
     "position": "6",
     "team": "Rayo Vallecano",
-    "played": "23",
+    "played": "24",
     "points": "35"
   },
   {
