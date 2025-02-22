@@ -49,39 +49,39 @@
   },
   {
     "position": "9",
-    "team": "Osasuna",
-    "played": "24",
+    "team": "Celta Vigo",
+    "played": "25",
     "points": "32"
   },
   {
     "position": "10",
+    "team": "Osasuna",
+    "played": "25",
+    "points": "32"
+  },
+  {
+    "position": "11",
     "team": "Girona",
     "played": "24",
     "points": "31"
   },
   {
-    "position": "11",
+    "position": "12",
     "team": "Real Sociedad",
     "played": "24",
     "points": "31"
   },
   {
-    "position": "12",
+    "position": "13",
     "team": "Sevilla",
     "played": "24",
     "points": "31"
   },
   {
-    "position": "13",
+    "position": "14",
     "team": "Getafe",
     "played": "24",
     "points": "30"
-  },
-  {
-    "position": "14",
-    "team": "Celta Vigo",
-    "played": "24",
-    "points": "29"
   },
   {
     "position": "15",
