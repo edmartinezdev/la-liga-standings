@@ -7,21 +7,21 @@
   },
   {
     "position": "2",
+    "team": "Real Madrid",
+    "played": "25",
+    "points": "54"
+  },
+  {
+    "position": "3",
     "team": "Atletico Madrid",
     "played": "25",
     "points": "53"
   },
   {
-    "position": "3",
-    "team": "Real Madrid",
-    "played": "24",
-    "points": "51"
-  },
-  {
     "position": "4",
     "team": "Athletic Bilbao",
-    "played": "24",
-    "points": "45"
+    "played": "25",
+    "points": "48"
   },
   {
     "position": "5",
@@ -61,14 +61,14 @@
   },
   {
     "position": "11",
-    "team": "Girona",
+    "team": "Real Sociedad",
     "played": "24",
     "points": "31"
   },
   {
     "position": "12",
-    "team": "Real Sociedad",
-    "played": "24",
+    "team": "Girona",
+    "played": "25",
     "points": "31"
   },
   {
@@ -116,7 +116,7 @@
   {
     "position": "20",
     "team": "Real Valladolid",
-    "played": "24",
+    "played": "25",
     "points": "15"
   }
 ]
