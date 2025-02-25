@@ -43,14 +43,14 @@
   },
   {
     "position": "8",
-    "team": "Real Sociedad",
+    "team": "Real Mallorca",
     "played": "25",
-    "points": "34"
+    "points": "35"
   },
   {
     "position": "9",
-    "team": "Real Mallorca",
-    "played": "24",
+    "team": "Real Sociedad",
+    "played": "25",
     "points": "34"
   },
   {
@@ -61,20 +61,20 @@
   },
   {
     "position": "11",
-    "team": "Osasuna",
+    "team": "Sevilla",
     "played": "25",
     "points": "32"
   },
   {
     "position": "12",
-    "team": "Girona",
+    "team": "Osasuna",
     "played": "25",
-    "points": "31"
+    "points": "32"
   },
   {
     "position": "13",
-    "team": "Sevilla",
-    "played": "24",
+    "team": "Girona",
+    "played": "25",
     "points": "31"
   },
   {
