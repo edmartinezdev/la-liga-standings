@@ -26,7 +26,7 @@
   {
     "position": "5",
     "team": "Villarreal",
-    "played": "25",
+    "played": "26",
     "points": "44"
   },
   {
@@ -43,21 +43,21 @@
   },
   {
     "position": "8",
+    "team": "Celta Vigo",
+    "played": "27",
+    "points": "36"
+  },
+  {
+    "position": "9",
     "team": "Real Mallorca",
     "played": "26",
     "points": "36"
   },
   {
-    "position": "9",
+    "position": "10",
     "team": "Real Sociedad",
     "played": "26",
     "points": "34"
-  },
-  {
-    "position": "10",
-    "team": "Celta Vigo",
-    "played": "26",
-    "points": "33"
   },
   {
     "position": "11",
@@ -92,26 +92,26 @@
   {
     "position": "16",
     "team": "Leganes",
-    "played": "26",
+    "played": "27",
     "points": "27"
   },
   {
     "position": "17",
+    "team": "Alaves",
+    "played": "27",
+    "points": "26"
+  },
+  {
+    "position": "18",
     "team": "Las Palmas",
     "played": "26",
     "points": "24"
   },
   {
-    "position": "18",
+    "position": "19",
     "team": "Valencia",
     "played": "26",
     "points": "24"
-  },
-  {
-    "position": "19",
-    "team": "Alaves",
-    "played": "26",
-    "points": "23"
   },
   {
     "position": "20",
