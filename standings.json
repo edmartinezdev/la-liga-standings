@@ -73,21 +73,21 @@
   },
   {
     "position": "13",
+    "team": "Girona",
+    "played": "27",
+    "points": "33"
+  },
+  {
+    "position": "14",
     "team": "Osasuna",
     "played": "26",
     "points": "33"
   },
   {
-    "position": "14",
-    "team": "Girona",
-    "played": "26",
-    "points": "32"
-  },
-  {
     "position": "15",
     "team": "Espanyol",
-    "played": "25",
-    "points": "27"
+    "played": "26",
+    "points": "28"
   },
   {
     "position": "16",
