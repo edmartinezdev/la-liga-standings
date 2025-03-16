@@ -1,14 +1,14 @@
 [
   {
     "position": "1",
-    "team": "Barcelona",
-    "played": "26",
-    "points": "57"
+    "team": "Real Madrid",
+    "played": "28",
+    "points": "60"
   },
   {
     "position": "2",
-    "team": "Real Madrid",
-    "played": "27",
+    "team": "Barcelona",
+    "played": "26",
     "points": "57"
   },
   {
@@ -26,7 +26,7 @@
   {
     "position": "5",
     "team": "Villarreal",
-    "played": "26",
+    "played": "27",
     "points": "44"
   },
   {
@@ -61,19 +61,19 @@
   },
   {
     "position": "11",
+    "team": "Girona",
+    "played": "28",
+    "points": "34"
+  },
+  {
+    "position": "12",
     "team": "Real Sociedad",
     "played": "27",
     "points": "34"
   },
   {
-    "position": "12",
-    "team": "Getafe",
-    "played": "27",
-    "points": "33"
-  },
-  {
     "position": "13",
-    "team": "Girona",
+    "team": "Getafe",
     "played": "27",
     "points": "33"
   },
@@ -91,14 +91,14 @@
   },
   {
     "position": "16",
-    "team": "Alaves",
+    "team": "Valencia",
     "played": "28",
-    "points": "27"
+    "points": "28"
   },
   {
     "position": "17",
-    "team": "Valencia",
-    "played": "27",
+    "team": "Alaves",
+    "played": "28",
     "points": "27"
   },
   {
