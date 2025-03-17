@@ -1,20 +1,20 @@
 [
   {
     "position": "1",
+    "team": "Barcelona",
+    "played": "27",
+    "points": "60"
+  },
+  {
+    "position": "2",
     "team": "Real Madrid",
     "played": "28",
     "points": "60"
   },
   {
-    "position": "2",
-    "team": "Barcelona",
-    "played": "26",
-    "points": "57"
-  },
-  {
     "position": "3",
     "team": "Atletico Madrid",
-    "played": "27",
+    "played": "28",
     "points": "56"
   },
   {
@@ -49,38 +49,38 @@
   },
   {
     "position": "9",
+    "team": "Rayo Vallecano",
+    "played": "28",
+    "points": "37"
+  },
+  {
+    "position": "10",
     "team": "Sevilla",
     "played": "28",
     "points": "36"
   },
   {
-    "position": "10",
-    "team": "Rayo Vallecano",
-    "played": "27",
+    "position": "11",
+    "team": "Getafe",
+    "played": "28",
     "points": "36"
   },
   {
-    "position": "11",
+    "position": "12",
+    "team": "Real Sociedad",
+    "played": "28",
+    "points": "35"
+  },
+  {
+    "position": "13",
     "team": "Girona",
     "played": "28",
     "points": "34"
   },
   {
-    "position": "12",
-    "team": "Real Sociedad",
-    "played": "27",
-    "points": "34"
-  },
-  {
-    "position": "13",
-    "team": "Getafe",
-    "played": "27",
-    "points": "33"
-  },
-  {
     "position": "14",
     "team": "Osasuna",
-    "played": "26",
+    "played": "27",
     "points": "33"
   },
   {
