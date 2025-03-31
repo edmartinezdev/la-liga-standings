@@ -20,8 +20,8 @@
   {
     "position": "4",
     "team": "Athletic Bilbao",
-    "played": "28",
-    "points": "52"
+    "played": "29",
+    "points": "53"
   },
   {
     "position": "5",
@@ -32,8 +32,8 @@
   {
     "position": "6",
     "team": "Real Betis",
-    "played": "28",
-    "points": "44"
+    "played": "29",
+    "points": "47"
   },
   {
     "position": "7",
@@ -44,7 +44,7 @@
   {
     "position": "8",
     "team": "Real Mallorca",
-    "played": "28",
+    "played": "29",
     "points": "40"
   },
   {
@@ -62,7 +62,7 @@
   {
     "position": "11",
     "team": "Sevilla",
-    "played": "28",
+    "played": "29",
     "points": "36"
   },
   {
@@ -80,20 +80,20 @@
   {
     "position": "14",
     "team": "Osasuna",
-    "played": "28",
-    "points": "33"
+    "played": "29",
+    "points": "34"
   },
   {
     "position": "15",
-    "team": "Espanyol",
-    "played": "28",
-    "points": "29"
+    "team": "Valencia",
+    "played": "29",
+    "points": "31"
   },
   {
     "position": "16",
-    "team": "Valencia",
+    "team": "Espanyol",
     "played": "28",
-    "points": "28"
+    "points": "29"
   },
   {
     "position": "17",
