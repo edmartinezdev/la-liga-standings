@@ -2,8 +2,8 @@
   {
     "position": "1",
     "team": "Barcelona",
-    "played": "29",
-    "points": "66"
+    "played": "30",
+    "points": "67"
   },
   {
     "position": "2",
@@ -25,21 +25,21 @@
   },
   {
     "position": "5",
+    "team": "Real Betis",
+    "played": "30",
+    "points": "48"
+  },
+  {
+    "position": "6",
     "team": "Villarreal",
     "played": "28",
     "points": "47"
   },
   {
-    "position": "6",
-    "team": "Real Betis",
-    "played": "29",
-    "points": "47"
-  },
-  {
     "position": "7",
     "team": "Celta Vigo",
-    "played": "29",
-    "points": "40"
+    "played": "30",
+    "points": "43"
   },
   {
     "position": "8",
@@ -50,7 +50,7 @@
   {
     "position": "9",
     "team": "Real Mallorca",
-    "played": "29",
+    "played": "30",
     "points": "40"
   },
   {
