@@ -20,20 +20,20 @@
   {
     "position": "4",
     "team": "Athletic Bilbao",
-    "played": "29",
-    "points": "53"
+    "played": "30",
+    "points": "54"
   },
   {
     "position": "5",
-    "team": "Real Betis",
-    "played": "30",
+    "team": "Villarreal",
+    "played": "29",
     "points": "48"
   },
   {
     "position": "6",
-    "team": "Villarreal",
-    "played": "28",
-    "points": "47"
+    "team": "Real Betis",
+    "played": "30",
+    "points": "48"
   },
   {
     "position": "7",
@@ -61,14 +61,14 @@
   },
   {
     "position": "11",
-    "team": "Sevilla",
+    "team": "Getafe",
     "played": "30",
-    "points": "36"
+    "points": "39"
   },
   {
     "position": "12",
-    "team": "Getafe",
-    "played": "29",
+    "team": "Sevilla",
+    "played": "30",
     "points": "36"
   },
   {
@@ -116,7 +116,7 @@
   {
     "position": "20",
     "team": "Real Valladolid",
-    "played": "29",
+    "played": "30",
     "points": "16"
   }
 ]
