@@ -73,19 +73,19 @@
   },
   {
     "position": "13",
-    "team": "Girona",
+    "team": "Osasuna",
+    "played": "30",
+    "points": "35"
+  },
+  {
+    "position": "14",
+    "team": "Valencia",
     "played": "30",
     "points": "34"
   },
   {
-    "position": "14",
-    "team": "Osasuna",
-    "played": "29",
-    "points": "34"
-  },
-  {
     "position": "15",
-    "team": "Valencia",
+    "team": "Girona",
     "played": "30",
     "points": "34"
   },
@@ -104,8 +104,8 @@
   {
     "position": "18",
     "team": "Leganes",
-    "played": "29",
-    "points": "27"
+    "played": "30",
+    "points": "28"
   },
   {
     "position": "19",
