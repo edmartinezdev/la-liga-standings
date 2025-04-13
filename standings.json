@@ -8,8 +8,8 @@
   {
     "position": "2",
     "team": "Real Madrid",
-    "played": "30",
-    "points": "63"
+    "played": "31",
+    "points": "66"
   },
   {
     "position": "3",
@@ -67,38 +67,38 @@
   },
   {
     "position": "12",
+    "team": "Osasuna",
+    "played": "31",
+    "points": "38"
+  },
+  {
+    "position": "13",
     "team": "Valencia",
     "played": "31",
     "points": "37"
   },
   {
-    "position": "13",
+    "position": "14",
     "team": "Sevilla",
     "played": "31",
     "points": "36"
   },
   {
-    "position": "14",
-    "team": "Espanyol",
-    "played": "30",
-    "points": "35"
-  },
-  {
     "position": "15",
-    "team": "Osasuna",
+    "team": "Espanyol",
     "played": "30",
     "points": "35"
   },
   {
     "position": "16",
     "team": "Girona",
-    "played": "30",
+    "played": "31",
     "points": "34"
   },
   {
     "position": "17",
     "team": "Alaves",
-    "played": "30",
+    "played": "31",
     "points": "30"
   },
   {
