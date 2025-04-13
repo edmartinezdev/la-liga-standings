@@ -2,8 +2,8 @@
   {
     "position": "1",
     "team": "Barcelona",
-    "played": "30",
-    "points": "67"
+    "played": "31",
+    "points": "70"
   },
   {
     "position": "2",
@@ -38,7 +38,7 @@
   {
     "position": "7",
     "team": "Celta Vigo",
-    "played": "30",
+    "played": "31",
     "points": "43"
   },
   {
@@ -79,21 +79,21 @@
   },
   {
     "position": "14",
-    "team": "Osasuna",
+    "team": "Espanyol",
     "played": "30",
     "points": "35"
   },
   {
     "position": "15",
-    "team": "Girona",
+    "team": "Osasuna",
     "played": "30",
-    "points": "34"
+    "points": "35"
   },
   {
     "position": "16",
-    "team": "Espanyol",
-    "played": "29",
-    "points": "32"
+    "team": "Girona",
+    "played": "30",
+    "points": "34"
   },
   {
     "position": "17",
@@ -110,7 +110,7 @@
   {
     "position": "19",
     "team": "Leganes",
-    "played": "30",
+    "played": "31",
     "points": "28"
   },
   {
