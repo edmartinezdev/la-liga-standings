@@ -26,8 +26,8 @@
   {
     "position": "5",
     "team": "Villarreal",
-    "played": "30",
-    "points": "51"
+    "played": "31",
+    "points": "52"
   },
   {
     "position": "6",
@@ -49,31 +49,31 @@
   },
   {
     "position": "9",
+    "team": "Real Sociedad",
+    "played": "32",
+    "points": "42"
+  },
+  {
+    "position": "10",
     "team": "Rayo Vallecano",
     "played": "32",
     "points": "41"
   },
   {
-    "position": "10",
-    "team": "Real Sociedad",
-    "played": "31",
+    "position": "11",
+    "team": "Osasuna",
+    "played": "32",
     "points": "41"
   },
   {
-    "position": "11",
+    "position": "12",
     "team": "Getafe",
     "played": "32",
     "points": "39"
   },
   {
-    "position": "12",
-    "team": "Espanyol",
-    "played": "31",
-    "points": "38"
-  },
-  {
     "position": "13",
-    "team": "Osasuna",
+    "team": "Espanyol",
     "played": "31",
     "points": "38"
   },
@@ -116,7 +116,7 @@
   {
     "position": "20",
     "team": "Real Valladolid",
-    "played": "31",
+    "played": "32",
     "points": "16"
   }
 ]
