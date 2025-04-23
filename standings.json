@@ -2,8 +2,8 @@
   {
     "position": "1",
     "team": "Barcelona",
-    "played": "32",
-    "points": "73"
+    "played": "33",
+    "points": "76"
   },
   {
     "position": "2",
@@ -38,7 +38,7 @@
   {
     "position": "7",
     "team": "Real Mallorca",
-    "played": "32",
+    "played": "33",
     "points": "44"
   },
   {
@@ -74,14 +74,14 @@
   {
     "position": "13",
     "team": "Espanyol",
-    "played": "31",
-    "points": "38"
+    "played": "32",
+    "points": "39"
   },
   {
     "position": "14",
     "team": "Valencia",
-    "played": "32",
-    "points": "38"
+    "played": "33",
+    "points": "39"
   },
   {
     "position": "15",
