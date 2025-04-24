@@ -8,8 +8,8 @@
   {
     "position": "2",
     "team": "Real Madrid",
-    "played": "32",
-    "points": "69"
+    "played": "33",
+    "points": "72"
   },
   {
     "position": "3",
@@ -20,13 +20,13 @@
   {
     "position": "4",
     "team": "Athletic Club",
-    "played": "32",
-    "points": "57"
+    "played": "33",
+    "points": "60"
   },
   {
     "position": "5",
     "team": "Villarreal",
-    "played": "31",
+    "played": "32",
     "points": "52"
   },
   {
@@ -37,20 +37,20 @@
   },
   {
     "position": "7",
+    "team": "Celta Vigo",
+    "played": "33",
+    "points": "46"
+  },
+  {
+    "position": "8",
     "team": "Real Mallorca",
     "played": "33",
     "points": "44"
   },
   {
-    "position": "8",
-    "team": "Celta Vigo",
-    "played": "32",
-    "points": "43"
-  },
-  {
     "position": "9",
     "team": "Real Sociedad",
-    "played": "32",
+    "played": "33",
     "points": "42"
   },
   {
@@ -68,7 +68,7 @@
   {
     "position": "12",
     "team": "Getafe",
-    "played": "32",
+    "played": "33",
     "points": "39"
   },
   {
@@ -91,21 +91,21 @@
   },
   {
     "position": "16",
+    "team": "Alaves",
+    "played": "33",
+    "points": "34"
+  },
+  {
+    "position": "17",
     "team": "Girona",
     "played": "32",
     "points": "34"
   },
   {
-    "position": "17",
-    "team": "Las Palmas",
-    "played": "32",
-    "points": "32"
-  },
-  {
     "position": "18",
-    "team": "Alaves",
-    "played": "32",
-    "points": "31"
+    "team": "Las Palmas",
+    "played": "33",
+    "points": "32"
   },
   {
     "position": "19",
