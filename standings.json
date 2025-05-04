@@ -2,8 +2,8 @@
   {
     "position": "1",
     "team": "Barcelona",
-    "played": "33",
-    "points": "76"
+    "played": "34",
+    "points": "79"
   },
   {
     "position": "2",
@@ -67,19 +67,19 @@
   },
   {
     "position": "12",
+    "team": "Valencia",
+    "played": "34",
+    "points": "42"
+  },
+  {
+    "position": "13",
     "team": "Getafe",
     "played": "34",
     "points": "39"
   },
   {
-    "position": "13",
-    "team": "Espanyol",
-    "played": "33",
-    "points": "39"
-  },
-  {
     "position": "14",
-    "team": "Valencia",
+    "team": "Espanyol",
     "played": "33",
     "points": "39"
   },
@@ -104,7 +104,7 @@
   {
     "position": "18",
     "team": "Las Palmas",
-    "played": "33",
+    "played": "34",
     "points": "32"
   },
   {
@@ -116,7 +116,7 @@
   {
     "position": "20",
     "team": "Real Valladolid",
-    "played": "33",
+    "played": "34",
     "points": "16"
   }
 ]
