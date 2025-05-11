@@ -2,13 +2,13 @@
   {
     "position": "1",
     "team": "Barcelona",
-    "played": "34",
-    "points": "79"
+    "played": "35",
+    "points": "82"
   },
   {
     "position": "2",
     "team": "Real Madrid",
-    "played": "34",
+    "played": "35",
     "points": "75"
   },
   {
@@ -80,7 +80,7 @@
   {
     "position": "14",
     "team": "Espanyol",
-    "played": "34",
+    "played": "35",
     "points": "39"
   },
   {
@@ -103,15 +103,15 @@
   },
   {
     "position": "18",
-    "team": "Las Palmas",
+    "team": "Leganes",
     "played": "35",
-    "points": "32"
+    "points": "34"
   },
   {
     "position": "19",
-    "team": "Leganes",
-    "played": "34",
-    "points": "31"
+    "team": "Las Palmas",
+    "played": "35",
+    "points": "32"
   },
   {
     "position": "20",
