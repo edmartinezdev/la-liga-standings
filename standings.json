@@ -14,8 +14,8 @@
   {
     "position": "3",
     "team": "Atletico Madrid",
-    "played": "34",
-    "points": "67"
+    "played": "35",
+    "points": "70"
   },
   {
     "position": "4",
@@ -26,8 +26,8 @@
   {
     "position": "5",
     "team": "Villarreal",
-    "played": "34",
-    "points": "58"
+    "played": "35",
+    "points": "61"
   },
   {
     "position": "6",
@@ -49,26 +49,26 @@
   },
   {
     "position": "9",
+    "team": "Real Mallorca",
+    "played": "35",
+    "points": "47"
+  },
+  {
+    "position": "10",
     "team": "Valencia",
     "played": "35",
     "points": "45"
   },
   {
-    "position": "10",
-    "team": "Osasuna",
-    "played": "34",
-    "points": "44"
-  },
-  {
     "position": "11",
-    "team": "Real Mallorca",
+    "team": "Osasuna",
     "played": "34",
     "points": "44"
   },
   {
     "position": "12",
     "team": "Real Sociedad",
-    "played": "34",
+    "played": "35",
     "points": "43"
   },
   {
@@ -86,7 +86,7 @@
   {
     "position": "15",
     "team": "Girona",
-    "played": "34",
+    "played": "35",
     "points": "38"
   },
   {
@@ -116,7 +116,7 @@
   {
     "position": "20",
     "team": "Real Valladolid",
-    "played": "34",
+    "played": "35",
     "points": "16"
   }
 ]
