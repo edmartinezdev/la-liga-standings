@@ -38,8 +38,8 @@
   {
     "position": "7",
     "team": "Celta Vigo",
-    "played": "35",
-    "points": "49"
+    "played": "36",
+    "points": "52"
   },
   {
     "position": "8",
@@ -68,32 +68,32 @@
   {
     "position": "12",
     "team": "Real Sociedad",
-    "played": "35",
+    "played": "36",
     "points": "43"
   },
   {
     "position": "13",
+    "team": "Girona",
+    "played": "36",
+    "points": "41"
+  },
+  {
+    "position": "14",
+    "team": "Sevilla",
+    "played": "36",
+    "points": "41"
+  },
+  {
+    "position": "15",
     "team": "Getafe",
     "played": "35",
     "points": "39"
   },
   {
-    "position": "14",
+    "position": "16",
     "team": "Espanyol",
     "played": "35",
     "points": "39"
-  },
-  {
-    "position": "15",
-    "team": "Girona",
-    "played": "35",
-    "points": "38"
-  },
-  {
-    "position": "16",
-    "team": "Sevilla",
-    "played": "35",
-    "points": "38"
   },
   {
     "position": "17",
@@ -110,13 +110,13 @@
   {
     "position": "19",
     "team": "Las Palmas",
-    "played": "35",
+    "played": "36",
     "points": "32"
   },
   {
     "position": "20",
     "team": "Real Valladolid",
-    "played": "35",
+    "played": "36",
     "points": "16"
   }
 ]
