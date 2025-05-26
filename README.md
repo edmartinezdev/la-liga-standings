@@ -21,6 +21,12 @@ This project fetches and displays the current La Liga standings data using a fre
    ```
    This will fetch the latest La Liga standings data and save it to the `standings.json` file.
 
+4. Run the website locally:
+   ```
+   npm run dev
+   ```
+   This will start a local server, usually at http://localhost:3000.
+
 ## Using a Real API
 
 The script is configured to use the API-SPORTS API. To use the real API instead of mock data:

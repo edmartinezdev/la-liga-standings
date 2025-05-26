@@ -1,4 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Set the current date as the last update time
+    const now = new Date();
+    document.getElementById('last-update').textContent = now.toLocaleDateString();
+    
     // Fetch the standings data from standings.json
     fetch('standings.json')
         .then(response => {

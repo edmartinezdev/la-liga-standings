@@ -10,6 +10,9 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
+            display: flex;
+            flex-direction: column;
+            min-height: 95vh;
         }
         h1 {
             color: #003366;
@@ -39,6 +42,13 @@
             text-align: center;
             color: #666;
         }
+        footer {
+            margin-top: auto;
+            text-align: center;
+            font-size: 0.8em;
+            color: #666;
+            padding: 20px 0;
+        }
     </style>
 </head>
 <body>
@@ -46,6 +56,10 @@
     <div id="standings">
         <p class="loading">Loading standings data...</p>
     </div>
+    
+    <footer>
+        <p>Data provided by API-SPORTS | Last updated: <span id="last-update"></span></p>
+    </footer>
 
     <script src="index.js"></script>
 </body>
