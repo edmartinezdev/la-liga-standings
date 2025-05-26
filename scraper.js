@@ -220,7 +220,7 @@ function getMockData() {
 
 // API-SPORTS API for La Liga standings
 const API_URL = "https://v3.football.api-sports.io/standings?league=140&season=2023";
-const API_KEY = "YOUR_API_KEY"; // Replace with your API key if using the actual API
+const API_KEY = "1bf4ff83c234abc234bd7b819c917e5e"; // API key for API-SPORTS
 
 async function fetchStandings() {
   try {

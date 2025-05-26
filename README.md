@@ -26,9 +26,9 @@ This project fetches and displays the current La Liga standings data using a fre
 The script is configured to use the API-SPORTS API. To use the real API instead of mock data:
 
 1. Sign up for a free API key at [API-SPORTS](https://api-sports.io/).
-2. Open the `scraper.js` file and replace `YOUR_API_KEY` with your actual API key:
+2. The project is already configured with an API key:
    ```javascript
-   const API_KEY = "YOUR_API_KEY"; // Replace with your actual API key
+   const API_KEY = "1bf4ff83c234abc234bd7b819c917e5e"; // API key for API-SPORTS
    ```
 
 ## Data Structure
