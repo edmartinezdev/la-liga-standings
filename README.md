@@ -37,6 +37,12 @@ The script is configured to use the API-SPORTS API. To use the real API instead 
    const API_KEY = "1bf4ff83c234abc234bd7b819c917e5e"; // API key for API-SPORTS
    ```
 
+The script automatically determines the current football season based on the date:
+- If the current month is between August and December, it uses the current year as the season
+- If the current month is between January and July, it uses the previous year as the season
+
+This ensures that the standings are always for the current season.
+
 ## Data Structure
 
 The standings data is stored in the following format:

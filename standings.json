@@ -3,7 +3,7 @@
     "position": "1",
     "team": "Real Madrid",
     "played": "38",
-    "points": "95"
+    "points": "89"
   },
   {
     "position": "2",
@@ -13,110 +13,110 @@
   },
   {
     "position": "3",
-    "team": "Girona",
+    "team": "Atletico Madrid",
     "played": "38",
-    "points": "81"
+    "points": "77"
   },
   {
     "position": "4",
-    "team": "Atletico Madrid",
+    "team": "Real Sociedad",
     "played": "38",
-    "points": "76"
+    "points": "74"
   },
   {
     "position": "5",
-    "team": "Athletic Club",
+    "team": "Villarreal",
     "played": "38",
     "points": "68"
   },
   {
     "position": "6",
-    "team": "Real Sociedad",
+    "team": "Real Betis",
     "played": "38",
-    "points": "60"
+    "points": "63"
   },
   {
     "position": "7",
-    "team": "Real Betis",
+    "team": "Athletic Bilbao",
     "played": "38",
-    "points": "57"
+    "points": "59"
   },
   {
     "position": "8",
-    "team": "Villarreal",
+    "team": "Girona",
+    "played": "38",
+    "points": "56"
+  },
+  {
+    "position": "9",
+    "team": "Osasuna",
     "played": "38",
     "points": "53"
   },
   {
-    "position": "9",
-    "team": "Valencia",
-    "played": "38",
-    "points": "49"
-  },
-  {
     "position": "10",
-    "team": "Alaves",
+    "team": "Sevilla",
     "played": "38",
-    "points": "46"
+    "points": "50"
   },
   {
     "position": "11",
-    "team": "Osasuna",
+    "team": "Valencia",
+    "played": "38",
+    "points": "48"
+  },
+  {
+    "position": "12",
+    "team": "Mallorca",
+    "played": "38",
+    "points": "47"
+  },
+  {
+    "position": "13",
+    "team": "Rayo Vallecano",
     "played": "38",
     "points": "45"
   },
   {
-    "position": "12",
+    "position": "14",
     "team": "Getafe",
     "played": "38",
     "points": "43"
   },
   {
-    "position": "13",
-    "team": "Celta Vigo",
-    "played": "38",
-    "points": "41"
-  },
-  {
-    "position": "14",
-    "team": "Sevilla",
-    "played": "38",
-    "points": "41"
-  },
-  {
     "position": "15",
-    "team": "Mallorca",
+    "team": "Celta Vigo",
     "played": "38",
     "points": "40"
   },
   {
     "position": "16",
-    "team": "Las Palmas",
+    "team": "Alaves",
     "played": "38",
-    "points": "40"
+    "points": "39"
   },
   {
     "position": "17",
-    "team": "Rayo Vallecano",
+    "team": "Cadiz",
     "played": "38",
     "points": "38"
   },
   {
     "position": "18",
-    "team": "Cadiz",
+    "team": "Granada",
     "played": "38",
-    "points": "33"
+    "points": "31"
   },
   {
     "position": "19",
     "team": "Almeria",
     "played": "38",
-    "points": "21"
+    "points": "30"
   },
   {
     "position": "20",
-    "team": "Granada CF",
+    "team": "Leganes",
     "played": "38",
-    "points": "21"
+    "points": "29"
   }
 ]
