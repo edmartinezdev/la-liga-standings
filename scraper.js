@@ -218,13 +218,27 @@ function getMockData() {
   };
 }
 
+// Function to determine the current season based on the date
+function getCurrentSeason() {
+  const currentDate = new Date();
+  const currentMonth = currentDate.getMonth() + 1; // January is 0
+  const currentYear = currentDate.getFullYear();
+  
+  // If we're between January and July, we're in the previous year's season
+  // If we're between August and December, we're in the current year's season
+  return currentMonth >= 8 ? currentYear : currentYear - 1;
+}
+
 // API-SPORTS API for La Liga standings
-const API_URL = "https://v3.football.api-sports.io/standings?league=140&season=2023";
+const CURRENT_SEASON = getCurrentSeason();
+const API_URL = `https://v3.football.api-sports.io/standings?league=140&season=${CURRENT_SEASON}`;
 const API_KEY = "1bf4ff83c234abc234bd7b819c917e5e"; // API key for API-SPORTS
 
 async function fetchStandings() {
   try {
     let data;
+    
+    console.log(`Fetching La Liga standings for the ${CURRENT_SEASON}-${CURRENT_SEASON + 1} season...`);
     
     try {
       // Try to fetch from the API
