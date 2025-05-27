@@ -3,9 +3,10 @@ import Head from 'next/head';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '../components/ui/tabs';
 
 export default function Home() {
-  const [standings, setStandings] = useState([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const [laLigaStandings, setLaLigaStandings] = useState([]);
+  const [f1Standings, setF1Standings] = useState([]);
+  const [loading, setLoading] = useState({laLiga: true, f1: true});
+  const [error, setError] = useState({laLiga: null, f1: null});
   const [lastUpdate, setLastUpdate] = useState('');
 
   useEffect(() => {
@@ -13,7 +14,7 @@ export default function Home() {
     const now = new Date();
     setLastUpdate(now.toLocaleDateString());
     
-    // Fetch the standings data
+    // Fetch the La Liga standings data
     fetch('/standings.json')
       .then(response => {
         if (!response.ok) {
@@ -22,13 +23,31 @@ export default function Home() {
         return response.json();
       })
       .then(data => {
-        setStandings(data);
-        setLoading(false);
+        setLaLigaStandings(data);
+        setLoading(prev => ({...prev, laLiga: false}));
       })
       .catch(err => {
-        console.error('Error fetching standings data:', err);
-        setError('Error loading standings data. Please try again later.');
-        setLoading(false);
+        console.error('Error fetching La Liga standings data:', err);
+        setError(prev => ({...prev, laLiga: 'Error loading La Liga standings data. Please try again later.'}));
+        setLoading(prev => ({...prev, laLiga: false}));
+      });
+    
+    // Fetch the F1 standings data
+    fetch('/f1-standings.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
+      .then(data => {
+        setF1Standings(data);
+        setLoading(prev => ({...prev, f1: false}));
+      })
+      .catch(err => {
+        console.error('Error fetching F1 standings data:', err);
+        setError(prev => ({...prev, f1: 'Error loading Formula 1 standings data. Please try again later.'}));
+        setLoading(prev => ({...prev, f1: false}));
       });
   }, []);
 
@@ -44,15 +63,15 @@ export default function Home() {
       <Tabs defaultValue="la-liga" className="w-full">
         <TabsList className="w-full mb-4 border-b">
           <TabsTrigger value="la-liga" className="data-[state=active]:border-b-2 data-[state=active]:border-[#003366] data-[state=active]:font-semibold">La Liga</TabsTrigger>
-          <TabsTrigger value="future" className="data-[state=active]:border-b-2 data-[state=active]:border-[#003366] data-[state=active]:font-semibold">Future Development</TabsTrigger>
+          <TabsTrigger value="formula1" className="data-[state=active]:border-b-2 data-[state=active]:border-[#003366] data-[state=active]:font-semibold">Formula 1</TabsTrigger>
         </TabsList>
         
         <TabsContent value="la-liga">
           <div id="standings">
-            {loading ? (
+            {loading.laLiga ? (
               <p className="loading">Loading standings data...</p>
-            ) : error ? (
-              <p style={{ color: 'red', textAlign: 'center' }}>{error}</p>
+            ) : error.laLiga ? (
+              <p style={{ color: 'red', textAlign: 'center' }}>{error.laLiga}</p>
             ) : (
               <table>
                 <thead>
@@ -64,7 +83,7 @@ export default function Home() {
                   </tr>
                 </thead>
                 <tbody>
-                  {standings.map((team, index) => (
+                  {laLigaStandings.map((team, index) => (
                     <tr key={index}>
                       <td>{team.position}</td>
                       <td>{team.team}</td>
@@ -78,10 +97,34 @@ export default function Home() {
           </div>
         </TabsContent>
         
-        <TabsContent value="future">
-          <div className="p-4 text-center">
-            <h2 className="text-xl font-semibold mb-4">Future Development</h2>
-            <p className="text-gray-600">This tab is reserved for future content.</p>
+        <TabsContent value="formula1">
+          <div id="f1-standings">
+            {loading.f1 ? (
+              <p className="loading">Loading Formula 1 standings data...</p>
+            ) : error.f1 ? (
+              <p style={{ color: 'red', textAlign: 'center' }}>{error.f1}</p>
+            ) : (
+              <table>
+                <thead>
+                  <tr>
+                    <th>Pos</th>
+                    <th>Driver</th>
+                    <th>Team</th>
+                    <th>Points</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {f1Standings.map((driver, index) => (
+                    <tr key={index}>
+                      <td>{driver.position}</td>
+                      <td>{driver.driver}</td>
+                      <td>{driver.team}</td>
+                      <td>{driver.points}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            )}
           </div>
         </TabsContent>
       </Tabs>
