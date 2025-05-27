@@ -1,6 +1,6 @@
 # La Liga Standings
 
-This project fetches and displays the current La Liga standings data using a free soccer API.
+This project fetches and displays the current La Liga standings data using a free soccer API. It's built with Next.js for a modern React-based web application.
 
 ## Usage
 
@@ -19,13 +19,20 @@ This project fetches and displays the current La Liga standings data using a fre
    ```
    npm run update
    ```
-   This will fetch the latest La Liga standings data and save it to the `standings.json` file.
+   This will fetch the latest La Liga standings data and save it to the `public/standings.json` file.
 
 4. Run the website locally:
    ```
    npm run dev
    ```
-   This will start a local server, usually at http://localhost:3000.
+   This will start a Next.js development server at http://localhost:3000.
+
+5. Build for production:
+   ```
+   npm run build
+   npm start
+   ```
+   This will create an optimized production build and start a server.
 
 ## Using a Real API
 
@@ -60,3 +67,12 @@ The standings data is stored in the following format:
 ```
 
 Each entry in the array represents a team with its league position, name, games played, and points earned.
+
+## Project Structure
+
+This project has been converted to use Next.js:
+
+- `/pages` - Next.js pages including the main index page
+- `/styles` - Global CSS styles
+- `/public` - Static files including standings.json 
+- `/lib` - Utility functions including the standings scraper
