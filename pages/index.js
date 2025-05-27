@@ -60,8 +60,13 @@ export default function Home() {
         return response.json();
       })
       .then(data => {
-        console.log('F1 Calendar Data loaded:', data);
-        setF1Calendar(data);
+        // Ensure we're setting an array to the state
+        if (Array.isArray(data)) {
+          setF1Calendar(data);
+        } else {
+          console.error('F1 calendar data is not an array:', data);
+          setError(prev => ({...prev, f1Calendar: 'Invalid F1 calendar data format. Please try again later.'}));
+        }
         setLoading(prev => ({...prev, f1Calendar: false}));
       })
       .catch(err => {
@@ -156,31 +161,29 @@ export default function Home() {
             ) : error.f1Calendar ? (
               <p style={{ color: 'red', textAlign: 'center' }}>{error.f1Calendar}</p>
             ) : (
-              <>
-                {console.log('Rendering F1 Calendar, data:', f1Calendar)}
-                {f1Calendar && f1Calendar.length > 0 ? (
-                  <table>
-                    <thead>
-                      <tr>
-                        <th>Grand Prix</th>
-                        <th>Circuit</th>
-                        <th>Date</th>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Grand Prix</th>
+                    <th>Circuit</th>
+                    <th>Date</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {Array.isArray(f1Calendar) && f1Calendar.length > 0 ? 
+                    f1Calendar.map((race, index) => (
+                      <tr key={index}>
+                        <td>{race.grandPrix}</td>
+                        <td>{race.circuit}</td>
+                        <td>{race.date}</td>
                       </tr>
-                    </thead>
-                    <tbody>
-                      {f1Calendar.map((race, index) => (
-                        <tr key={index}>
-                          <td>{race.grandPrix}</td>
-                          <td>{race.circuit}</td>
-                          <td>{race.date}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                ) : (
-                  <p>No F1 calendar data available.</p>
-                )}
-              </>
+                    )) : 
+                    <tr>
+                      <td colSpan={3} style={{ textAlign: 'center' }}>No race data available</td>
+                    </tr>
+                  }
+                </tbody>
+              </table>
             )}
           </div>
         </TabsContent>
