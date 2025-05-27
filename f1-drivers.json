@@ -1,0 +1,128 @@
+[
+  {
+    "position": "1",
+    "driver": "Max Verstappen",
+    "team": "Red Bull Racing",
+    "points": "224"
+  },
+  {
+    "position": "2",
+    "driver": "Lando Norris",
+    "team": "McLaren",
+    "points": "182"
+  },
+  {
+    "position": "3",
+    "driver": "Charles Leclerc",
+    "team": "Ferrari",
+    "points": "150"
+  },
+  {
+    "position": "4",
+    "driver": "Oscar Piastri",
+    "team": "McLaren",
+    "points": "147"
+  },
+  {
+    "position": "5",
+    "driver": "Carlos Sainz",
+    "team": "Ferrari",
+    "points": "146"
+  },
+  {
+    "position": "6",
+    "driver": "Lewis Hamilton",
+    "team": "Mercedes",
+    "points": "144"
+  },
+  {
+    "position": "7",
+    "driver": "George Russell",
+    "team": "Mercedes",
+    "points": "124"
+  },
+  {
+    "position": "8",
+    "driver": "Sergio Perez",
+    "team": "Red Bull Racing",
+    "points": "118"
+  },
+  {
+    "position": "9",
+    "driver": "Fernando Alonso",
+    "team": "Aston Martin",
+    "points": "71"
+  },
+  {
+    "position": "10",
+    "driver": "Lance Stroll",
+    "team": "Aston Martin",
+    "points": "24"
+  },
+  {
+    "position": "11",
+    "driver": "Nico Hulkenberg",
+    "team": "Haas F1 Team",
+    "points": "22"
+  },
+  {
+    "position": "12",
+    "driver": "Yuki Tsunoda",
+    "team": "RB",
+    "points": "20"
+  },
+  {
+    "position": "13",
+    "driver": "Daniel Ricciardo",
+    "team": "RB",
+    "points": "11"
+  },
+  {
+    "position": "14",
+    "driver": "Oliver Bearman",
+    "team": "Ferrari",
+    "points": "6"
+  },
+  {
+    "position": "15",
+    "driver": "Kevin Magnussen",
+    "team": "Haas F1 Team",
+    "points": "5"
+  },
+  {
+    "position": "16",
+    "driver": "Alexander Albon",
+    "team": "Williams",
+    "points": "4"
+  },
+  {
+    "position": "17",
+    "driver": "Esteban Ocon",
+    "team": "Alpine",
+    "points": "3"
+  },
+  {
+    "position": "18",
+    "driver": "Pierre Gasly",
+    "team": "Alpine",
+    "points": "1"
+  },
+  {
+    "position": "19",
+    "driver": "Valtteri Bottas",
+    "team": "Kick Sauber",
+    "points": "0"
+  },
+  {
+    "position": "20",
+    "driver": "Zhou Guanyu",
+    "team": "Kick Sauber",
+    "points": "0"
+  },
+  {
+    "position": "21",
+    "driver": "Logan Sargeant",
+    "team": "Williams",
+    "points": "0"
+  }
+]

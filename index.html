@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La Liga Standings</title>
+    <title>Sports Standings</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -49,12 +49,71 @@
             color: #666;
             padding: 20px 0;
         }
+        /* Tab navigation styles */
+        .tab-nav {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #f1f1f1;
+            border-radius: 5px 5px 0 0;
+            margin-top: 20px;
+        }
+        .tab-nav button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 16px;
+        }
+        .tab-nav button:hover {
+            background-color: #ddd;
+        }
+        .tab-nav button.active {
+            background-color: #003366;
+            color: white;
+        }
+        .tab-content {
+            display: none;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-top: none;
+            border-radius: 0 0 5px 5px;
+        }
+        .tab-content.active {
+            display: block;
+        }
     </style>
 </head>
 <body>
-    <h1>La Liga Standings</h1>
-    <div id="standings">
-        <p class="loading">Loading standings data...</p>
+    <h1>Sports Standings</h1>
+    
+    <div class="tab-nav">
+        <button id="tab-laliga" class="tab-button active">La Liga</button>
+        <button id="tab-f1drivers" class="tab-button">F1 Drivers</button>
+        <button id="tab-f1teams" class="tab-button">F1 Teams</button>
+    </div>
+    
+    <div id="laliga-content" class="tab-content active">
+        <h2>La Liga Standings</h2>
+        <div id="standings">
+            <p class="loading">Loading standings data...</p>
+        </div>
+    </div>
+    
+    <div id="f1drivers-content" class="tab-content">
+        <h2>Formula 1 Driver Standings</h2>
+        <div id="f1-drivers-standings">
+            <p class="loading">Loading F1 drivers data...</p>
+        </div>
+    </div>
+    
+    <div id="f1teams-content" class="tab-content">
+        <h2>Formula 1 Team Standings</h2>
+        <div id="f1-teams-standings">
+            <p class="loading">Loading F1 teams data...</p>
+        </div>
     </div>
     
     <footer>
