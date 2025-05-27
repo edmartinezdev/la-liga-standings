@@ -83,7 +83,7 @@ export default function Home() {
         <TabsList className="w-full mb-4 border-b">
           <TabsTrigger value="la-liga" className="data-[state=active]:border-b-2 data-[state=active]:border-[#003366] data-[state=active]:font-semibold">La Liga</TabsTrigger>
           <TabsTrigger value="formula1" className="data-[state=active]:border-b-2 data-[state=active]:border-[#003366] data-[state=active]:font-semibold">Formula 1</TabsTrigger>
-          <TabsTrigger value="f1-calendar" className="data-[state=active]:border-b-2 data-[state=active]:border-[#003366] data-[state=active]:font-semibold">F1 Calendar</TabsTrigger>
+          <TabsTrigger value="f1Calendar" className="data-[state=active]:border-b-2 data-[state=active]:border-[#003366] data-[state=active]:font-semibold">F1 Calendar</TabsTrigger>
         </TabsList>
         
         <TabsContent value="la-liga">
@@ -148,7 +148,7 @@ export default function Home() {
           </div>
         </TabsContent>
         
-        <TabsContent value="f1-calendar">
+        <TabsContent value="f1Calendar">
           <div id="f1-calendar">
             {loading.f1Calendar ? (
               <p className="loading">Loading Formula 1 calendar data...</p>
