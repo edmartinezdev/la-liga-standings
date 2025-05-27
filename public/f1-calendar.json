@@ -1,0 +1,42 @@
+[
+  {
+    "grandPrix": "Bahrain Grand Prix",
+    "circuit": "Bahrain International Circuit",
+    "date": "March 2, 2024"
+  },
+  {
+    "grandPrix": "Saudi Arabian Grand Prix",
+    "circuit": "Jeddah Corniche Circuit",
+    "date": "March 9, 2024"
+  },
+  {
+    "grandPrix": "Australian Grand Prix",
+    "circuit": "Albert Park Circuit",
+    "date": "March 24, 2024"
+  },
+  {
+    "grandPrix": "Japanese Grand Prix",
+    "circuit": "Suzuka Circuit",
+    "date": "April 7, 2024"
+  },
+  {
+    "grandPrix": "Chinese Grand Prix",
+    "circuit": "Shanghai International Circuit",
+    "date": "April 21, 2024"
+  },
+  {
+    "grandPrix": "Miami Grand Prix",
+    "circuit": "Miami International Autodrome",
+    "date": "May 5, 2024"
+  },
+  {
+    "grandPrix": "Emilia Romagna Grand Prix",
+    "circuit": "Autodromo Enzo e Dino Ferrari",
+    "date": "May 19, 2024"
+  },
+  {
+    "grandPrix": "Monaco Grand Prix",
+    "circuit": "Circuit de Monaco",
+    "date": "May 26, 2024"
+  }
+]
