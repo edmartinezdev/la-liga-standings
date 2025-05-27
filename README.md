@@ -1,6 +1,6 @@
 # La Liga Standings
 
-This project fetches and displays the current La Liga standings data using a free soccer API. It's built with Next.js for a modern React-based web application.
+This project fetches and displays the current La Liga standings data using a free soccer API. It's built with Next.js for a modern React-based web application. It also displays Formula 1 driver standings and race calendar.
 
 ## Usage
 
@@ -19,7 +19,7 @@ This project fetches and displays the current La Liga standings data using a fre
    ```
    npm run update
    ```
-   This will fetch the latest La Liga standings data and save it to the `public/standings.json` file.
+   This will fetch the latest La Liga standings data, Formula 1 driver standings and Formula 1 calendar data, and save them to the `public` directory.
 
 4. Run the website locally:
    ```
@@ -68,11 +68,26 @@ The standings data is stored in the following format:
 
 Each entry in the array represents a team with its league position, name, games played, and points earned.
 
+The Formula 1 calendar data is stored in the following format:
+
+```json
+[
+  {
+    "grandPrix": "Bahrain Grand Prix",
+    "circuit": "Bahrain International Circuit",
+    "date": "March 2, 2024"
+  },
+  ...
+]
+```
+
+Each entry in the array represents a race with its name, circuit, and date.
+
 ## Project Structure
 
 This project has been converted to use Next.js:
 
 - `/pages` - Next.js pages including the main index page
 - `/styles` - Global CSS styles
-- `/public` - Static files including standings.json 
+- `/public` - Static files including standings.json, f1-standings.json, and f1-calendar.json
 - `/lib` - Utility functions including the standings scraper
