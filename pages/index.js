@@ -60,7 +60,13 @@ export default function Home() {
         return response.json();
       })
       .then(data => {
-        setF1Calendar(data);
+        // Ensure we're setting an array to the state
+        if (Array.isArray(data)) {
+          setF1Calendar(data);
+        } else {
+          console.error('F1 calendar data is not an array:', data);
+          setError(prev => ({...prev, f1Calendar: 'Invalid F1 calendar data format. Please try again later.'}));
+        }
         setLoading(prev => ({...prev, f1Calendar: false}));
       })
       .catch(err => {
@@ -164,13 +170,18 @@ export default function Home() {
                   </tr>
                 </thead>
                 <tbody>
-                  {f1Calendar.map((race, index) => (
-                    <tr key={index}>
-                      <td>{race.grandPrix}</td>
-                      <td>{race.circuit}</td>
-                      <td>{race.date}</td>
+                  {Array.isArray(f1Calendar) && f1Calendar.length > 0 ? 
+                    f1Calendar.map((race, index) => (
+                      <tr key={index}>
+                        <td>{race.grandPrix}</td>
+                        <td>{race.circuit}</td>
+                        <td>{race.date}</td>
+                      </tr>
+                    )) : 
+                    <tr>
+                      <td colSpan={3} style={{ textAlign: 'center' }}>No race data available</td>
                     </tr>
-                  ))}
+                  }
                 </tbody>
               </table>
             )}
