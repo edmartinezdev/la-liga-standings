@@ -5,8 +5,9 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from '../components/ui/tabs'
 export default function Home() {
   const [laLigaStandings, setLaLigaStandings] = useState([]);
   const [f1Standings, setF1Standings] = useState([]);
-  const [loading, setLoading] = useState({laLiga: true, f1: true});
-  const [error, setError] = useState({laLiga: null, f1: null});
+  const [f1Calendar, setF1Calendar] = useState([]);
+  const [loading, setLoading] = useState({laLiga: true, f1: true, f1Calendar: true});
+  const [error, setError] = useState({laLiga: null, f1: null, f1Calendar: null});
   const [lastUpdate, setLastUpdate] = useState('');
 
   useEffect(() => {
@@ -49,6 +50,24 @@ export default function Home() {
         setError(prev => ({...prev, f1: 'Error loading Formula 1 standings data. Please try again later.'}));
         setLoading(prev => ({...prev, f1: false}));
       });
+      
+    // Fetch the F1 calendar data
+    fetch('/f1-calendar.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
+      .then(data => {
+        setF1Calendar(data);
+        setLoading(prev => ({...prev, f1Calendar: false}));
+      })
+      .catch(err => {
+        console.error('Error fetching F1 calendar data:', err);
+        setError(prev => ({...prev, f1Calendar: 'Error loading Formula 1 calendar data. Please try again later.'}));
+        setLoading(prev => ({...prev, f1Calendar: false}));
+      });
   }, []);
 
   return (
@@ -64,6 +83,7 @@ export default function Home() {
         <TabsList className="w-full mb-4 border-b">
           <TabsTrigger value="la-liga" className="data-[state=active]:border-b-2 data-[state=active]:border-[#003366] data-[state=active]:font-semibold">La Liga</TabsTrigger>
           <TabsTrigger value="formula1" className="data-[state=active]:border-b-2 data-[state=active]:border-[#003366] data-[state=active]:font-semibold">Formula 1</TabsTrigger>
+          <TabsTrigger value="f1-calendar" className="data-[state=active]:border-b-2 data-[state=active]:border-[#003366] data-[state=active]:font-semibold">F1 Calendar</TabsTrigger>
         </TabsList>
         
         <TabsContent value="la-liga">
@@ -120,6 +140,35 @@ export default function Home() {
                       <td>{driver.driver}</td>
                       <td>{driver.team}</td>
                       <td>{driver.points}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            )}
+          </div>
+        </TabsContent>
+        
+        <TabsContent value="f1-calendar">
+          <div id="f1-calendar">
+            {loading.f1Calendar ? (
+              <p className="loading">Loading Formula 1 calendar data...</p>
+            ) : error.f1Calendar ? (
+              <p style={{ color: 'red', textAlign: 'center' }}>{error.f1Calendar}</p>
+            ) : (
+              <table>
+                <thead>
+                  <tr>
+                    <th>Grand Prix</th>
+                    <th>Circuit</th>
+                    <th>Date</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {f1Calendar.map((race, index) => (
+                    <tr key={index}>
+                      <td>{race.grandPrix}</td>
+                      <td>{race.circuit}</td>
+                      <td>{race.date}</td>
                     </tr>
                   ))}
                 </tbody>
