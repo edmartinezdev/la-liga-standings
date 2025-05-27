@@ -60,6 +60,7 @@ export default function Home() {
         return response.json();
       })
       .then(data => {
+        console.log('F1 Calendar Data loaded:', data);
         setF1Calendar(data);
         setLoading(prev => ({...prev, f1Calendar: false}));
       })
@@ -155,24 +156,31 @@ export default function Home() {
             ) : error.f1Calendar ? (
               <p style={{ color: 'red', textAlign: 'center' }}>{error.f1Calendar}</p>
             ) : (
-              <table>
-                <thead>
-                  <tr>
-                    <th>Grand Prix</th>
-                    <th>Circuit</th>
-                    <th>Date</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {f1Calendar.map((race, index) => (
-                    <tr key={index}>
-                      <td>{race.grandPrix}</td>
-                      <td>{race.circuit}</td>
-                      <td>{race.date}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+              <>
+                {console.log('Rendering F1 Calendar, data:', f1Calendar)}
+                {f1Calendar && f1Calendar.length > 0 ? (
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Grand Prix</th>
+                        <th>Circuit</th>
+                        <th>Date</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {f1Calendar.map((race, index) => (
+                        <tr key={index}>
+                          <td>{race.grandPrix}</td>
+                          <td>{race.circuit}</td>
+                          <td>{race.date}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                ) : (
+                  <p>No F1 calendar data available.</p>
+                )}
+              </>
             )}
           </div>
         </TabsContent>
