@@ -4,121 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sports Standings</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            min-height: 95vh;
-        }
-        h1 {
-            color: #003366;
-            text-align: center;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-        th, td {
-            padding: 10px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-        }
-        th {
-            background-color: #003366;
-            color: white;
-        }
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-        tr:hover {
-            background-color: #ddd;
-        }
-        .loading {
-            text-align: center;
-            color: #666;
-        }
-        footer {
-            margin-top: auto;
-            text-align: center;
-            font-size: 0.8em;
-            color: #666;
-            padding: 20px 0;
-        }
-        /* Tab navigation styles */
-        .tab-nav {
-            overflow: hidden;
-            border: 1px solid #ccc;
-            background-color: #f1f1f1;
-            border-radius: 5px 5px 0 0;
-            margin-top: 20px;
-        }
-        .tab-nav button {
-            background-color: inherit;
-            float: left;
-            border: none;
-            outline: none;
-            cursor: pointer;
-            padding: 14px 16px;
-            transition: 0.3s;
-            font-size: 16px;
-        }
-        .tab-nav button:hover {
-            background-color: #ddd;
-        }
-        .tab-nav button.active {
-            background-color: #003366;
-            color: white;
-        }
-        .tab-content {
-            display: none;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-top: none;
-            border-radius: 0 0 5px 5px;
-        }
-        .tab-content.active {
-            display: block;
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <h1>Sports Standings</h1>
-    
-    <div class="tab-nav">
-        <button id="tab-laliga" class="tab-button active">La Liga</button>
-        <button id="tab-f1drivers" class="tab-button">F1 Drivers</button>
-        <button id="tab-f1teams" class="tab-button">F1 Teams</button>
-    </div>
-    
-    <div id="laliga-content" class="tab-content active">
-        <h2>La Liga Standings</h2>
-        <div id="standings">
-            <p class="loading">Loading standings data...</p>
+<body class="bg-gray-50 font-sans">
+    <div class="max-w-4xl mx-auto p-6 flex flex-col min-h-screen">
+        <h1 class="text-3xl font-bold text-center text-blue-900 mb-6">Sports Standings</h1>
+        
+        <!-- Tabs -->
+        <div class="border-b border-gray-200">
+            <nav class="flex -mb-px">
+                <button id="tab-laliga" class="tab-button active-tab px-4 py-2 font-medium text-sm rounded-t-lg border-b-2 border-blue-900 text-blue-900 bg-white">La Liga</button>
+                <button id="tab-f1drivers" class="tab-button px-4 py-2 font-medium text-sm rounded-t-lg border-b-2 border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300">F1 Drivers</button>
+                <button id="tab-f1teams" class="tab-button px-4 py-2 font-medium text-sm rounded-t-lg border-b-2 border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300">F1 Teams</button>
+            </nav>
         </div>
-    </div>
-    
-    <div id="f1drivers-content" class="tab-content">
-        <h2>Formula 1 Driver Standings</h2>
-        <div id="f1-drivers-standings">
-            <p class="loading">Loading F1 drivers data...</p>
+        
+        <!-- Tab contents -->
+        <div id="laliga-content" class="tab-content bg-white rounded-b-lg shadow p-6 mt-2">
+            <h2 class="text-xl font-semibold text-gray-800 mb-4">La Liga Standings</h2>
+            <div id="standings">
+                <p class="text-center text-gray-500">Loading standings data...</p>
+            </div>
         </div>
-    </div>
-    
-    <div id="f1teams-content" class="tab-content">
-        <h2>Formula 1 Team Standings</h2>
-        <div id="f1-teams-standings">
-            <p class="loading">Loading F1 teams data...</p>
+        
+        <div id="f1drivers-content" class="tab-content hidden bg-white rounded-b-lg shadow p-6 mt-2">
+            <h2 class="text-xl font-semibold text-gray-800 mb-4">Formula 1 Driver Standings</h2>
+            <div id="f1-drivers-standings">
+                <p class="text-center text-gray-500">Loading F1 drivers data...</p>
+            </div>
         </div>
+        
+        <div id="f1teams-content" class="tab-content hidden bg-white rounded-b-lg shadow p-6 mt-2">
+            <h2 class="text-xl font-semibold text-gray-800 mb-4">Formula 1 Team Standings</h2>
+            <div id="f1-teams-standings">
+                <p class="text-center text-gray-500">Loading F1 teams data...</p>
+            </div>
+        </div>
+        
+        <footer class="mt-auto text-center text-sm text-gray-500 py-4">
+            <p>Data provided by API-SPORTS | Last updated: <span id="last-update"></span></p>
+        </footer>
     </div>
-    
-    <footer>
-        <p>Data provided by API-SPORTS | Last updated: <span id="last-update"></span></p>
-    </footer>
 
     <script src="index.js"></script>
 </body>
