@@ -42,9 +42,9 @@ export default function Home() {
       <h1>La Liga Standings</h1>
       
       <Tabs defaultValue="la-liga" className="w-full">
-        <TabsList>
-          <TabsTrigger value="la-liga">La Liga</TabsTrigger>
-          <TabsTrigger value="future">Future Development</TabsTrigger>
+        <TabsList className="w-full mb-4 border-b">
+          <TabsTrigger value="la-liga" className="data-[state=active]:border-b-2 data-[state=active]:border-[#003366] data-[state=active]:font-semibold">La Liga</TabsTrigger>
+          <TabsTrigger value="future" className="data-[state=active]:border-b-2 data-[state=active]:border-[#003366] data-[state=active]:font-semibold">Future Development</TabsTrigger>
         </TabsList>
         
         <TabsContent value="la-liga">
